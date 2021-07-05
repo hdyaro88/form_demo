@@ -42,12 +42,12 @@ const ImageHolder = React.memo((props) => {
         id={props.id}
         name={`reference${props.id}`}
         onChange={fileHandlder}
-        accept=".mp4 , .jpeg , .png"
+        accept=".mp4 , .jpeg , .png , .jpg"
         hidden
       />
       <div className={styles.image}>
         {File_Local &&
-          (Image.name.includes(".jpeg") || Image.name.includes(".png")) && (
+          (Image.name.includes(".jpeg") || Image.name.includes(".png") || Image.name.includes(".jpg") ) && (
             <img src={File_Local} alt={`img ${props.id}`} />
           )}
         {File_Local && Image.name.includes(".mp4") && (

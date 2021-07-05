@@ -79,7 +79,7 @@ const Product = React.memo((props) => {
       <br />
       {List.length === 0 && isClicked && <p>Empty Fields Not Allowed</p>}
       {List.length !== 0 && (
-        <ul>
+        <ul className={styles.prod_list}>
           {" "}
           {List.map((product) => {
             return (

@@ -1,0 +1,23 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5vh;
+  width: 100%;
+  background: white;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  z-index: 30;
+  display: none;
+}
+.header label {
+  position: absolute;
+  height: 100%;
+  left: 90%;
+  right: 0;
+}
+@media (max-width: 986px) {
+  .header {
+    display: block;
+  }
+}

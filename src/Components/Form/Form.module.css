@@ -3,8 +3,10 @@
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 80%;
+  right: 0;
+  width: 95%;
   box-shadow: 0 0 10px grey;
+  overflow: hidden;
 }
 .submit {
   background: rgb(0, 223, 11);

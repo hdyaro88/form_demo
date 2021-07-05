@@ -101,7 +101,7 @@ const Deliverables = React.memo((props) => {
       <br />
       {List.length === 0 && isClicked && <p>Empty Fields Not Allowed</p>}
       {List.length !== 0 && (
-        <ul>
+        <ul className={styles.deliverable_list}>
           {" "}
           {List.map((deliverable) => {
             return (

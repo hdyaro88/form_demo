@@ -1,0 +1,17 @@
+.form_section {
+  position: absolute;
+  height: 100%;
+  margin: auto;
+  top: 0;
+  right: 0;
+  width: calc(100% - 15vw);
+  box-shadow: 0 0 10px grey;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+@media (max-width: 986px) {
+  .form_section {
+    margin-top: 5vh;
+    width: 100%;
+  }
+}
