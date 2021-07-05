@@ -1,0 +1,40 @@
+.campaign_info {
+  margin: auto;
+  width: 95%;
+  border-bottom: 2px solid grey;
+  border-width: 80%;
+  height: auto;
+  padding: 10px;
+}
+.campaign_info input {
+  height: 4vh;
+  padding: 10px;
+  border: 1px solid grey;
+}
+.campaign_info .index {
+  display: flex;
+  align-items: center;
+}
+.campaign_info div label {
+  font-size: 0.8rem;
+}
+.campaign_info select {
+  border-style: none;
+}
+.campaign_info div {
+  display: inline-block;
+  margin-bottom: 2vh;
+  margin-right: 4vw;
+  width: fit-content;
+}
+.id {
+  color: white;
+  line-height: 30px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 30px;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  background: blueviolet;
+}

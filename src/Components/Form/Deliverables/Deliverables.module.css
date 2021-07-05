@@ -1,0 +1,60 @@
+.deliverables {
+  margin: auto;
+  width: 95%;
+  border-bottom: 2px solid grey;
+  border-width: 80%;
+  height: auto;
+  padding: 10px;
+}
+.deliverables h4 {
+  margin-top: 0;
+}
+.deliverables .index {
+  display: flex;
+  align-items: center;
+}
+textarea {
+  padding: 10px;
+  resize: none;
+  border: 1px solid grey;
+}
+.deliverables input {
+  height: 4vh;
+  padding: 10px;
+  border: 1px solid grey;
+}
+.deliverables div label {
+  font-size: 0.8rem;
+}
+.slider_box {
+  display: block;
+  width: 500px;
+  border: 2px solid blue;
+}
+.deliverables span {
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.deliverables div {
+  display: inline-block;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-right: 2vw;
+}
+.id {
+  color: white;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 30px;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  background: blueviolet;
+}
+@media (max-width: 580px) {
+  textarea {
+    width: 95%;
+  }
+}
